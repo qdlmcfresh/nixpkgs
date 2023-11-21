@@ -20,8 +20,8 @@ stdenv.mkDerivation rec {
   src = fetchFromGitHub {
     owner = "any1";
     repo = pname;
-    rev = "v${version}";
-    sha256 = "sha256-bRlz5RW+NUSTgzjRM9alZjSrzmF8/7p4IIXqK/HEcJo=";
+    rev = "d80b51f650943381e36d6ec5d4082d319812ceec";
+    sha256 = "sha256-Iy579t3sGn0KkoKeHqNZdxHKNwkvViptphNiyOdQqkU=";
   };
 
   strictDeps = true;
