@@ -8,6 +8,7 @@
   ninja,
   gusb,
   pixman,
+  nss,
   glib,
   gobject-introspection,
   cairo,
@@ -16,7 +17,6 @@
   docbook-xsl-nons,
   docbook_xml_dtd_43,
   openssl,
-  nss,
 }:
 
 stdenv.mkDerivation (finalAttrs: {
@@ -58,10 +58,10 @@ stdenv.mkDerivation (finalAttrs: {
     gusb
     pixman
     glib
+    nss
     cairo
     libgudev
     openssl
-    nss
   ];
 
   mesonFlags = [
