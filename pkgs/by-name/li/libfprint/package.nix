@@ -16,6 +16,7 @@
   docbook-xsl-nons,
   docbook_xml_dtd_43,
   openssl,
+  nss,
 }:
 
 stdenv.mkDerivation (finalAttrs: {
@@ -60,6 +61,7 @@ stdenv.mkDerivation (finalAttrs: {
     cairo
     libgudev
     openssl
+    nss
   ];
 
   mesonFlags = [
